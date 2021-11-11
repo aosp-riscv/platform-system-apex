@@ -29,6 +29,10 @@ prebuilt_apex {
     arm64: {
       src: "prebuilts/arm/com.android.apex.cts.shim.v1.apex",
     },
+    // FIXME: need to create real file for riscv64, now just use arm64 to pass build
+    riscv64: {
+      src: "prebuilts/riscv/com.android.apex.cts.shim.v1.apex",
+    },
     x86: {
       src: "prebuilts/x86/com.android.apex.cts.shim.v1.apex",
     },
@@ -50,6 +54,10 @@ prebuilt_apex {
     arm64: {
       src: "prebuilts/arm/com.android.apex.cts.shim.v2.apex",
     },
+    // FIXME: need to create real file for riscv64, now just use arm64 to pass build
+    riscv64: {
+      src: "prebuilts/riscv/com.android.apex.cts.shim.v2.apex",
+    },
     x86: {
       src: "prebuilts/x86/com.android.apex.cts.shim.v2.apex",
     },
@@ -69,6 +77,10 @@ prebuilt_apex {
     },
     arm64: {
       src: "prebuilts/arm/com.android.apex.cts.shim.v2_wrong_sha.apex",
+    },
+    // FIXME: need to create real file for riscv64, now just use arm64 to pass build
+    riscv64: {
+      src: "prebuilts/riscv/com.android.apex.cts.shim.v2_wrong_sha.apex",
     },
     x86: {
       src: "prebuilts/x86/com.android.apex.cts.shim.v2_wrong_sha.apex",
@@ -90,6 +102,10 @@ prebuilt_apex {
     arm64: {
       src: "prebuilts/arm/com.android.apex.cts.shim.v2_additional_file.apex",
     },
+    // FIXME: need to create real file for riscv64, now just use arm64 to pass build
+    riscv64: {
+      src: "prebuilts/riscv/com.android.apex.cts.shim.v2_additional_file.apex",
+    },
     x86: {
       src: "prebuilts/x86/com.android.apex.cts.shim.v2_additional_file.apex",
     },
@@ -109,6 +125,10 @@ prebuilt_apex {
     },
     arm64: {
       src: "prebuilts/arm/com.android.apex.cts.shim.v2_additional_folder.apex",
+    },
+    // FIXME: need to create real file for riscv64, now just use arm64 to pass build
+    riscv64: {
+      src: "prebuilts/riscv/com.android.apex.cts.shim.v2_additional_folder.apex",
     },
     x86: {
       src: "prebuilts/x86/com.android.apex.cts.shim.v2_additional_folder.apex",
@@ -130,6 +150,10 @@ prebuilt_apex {
     arm64: {
       src: "prebuilts/arm/com.android.apex.cts.shim.v2_with_pre_install_hook.apex",
     },
+    // FIXME: need to create real file for riscv64, now just use arm64 to pass build
+    riscv64: {
+      src: "prebuilts/riscv/com.android.apex.cts.shim.v2_with_pre_install_hook.apex",
+    },
     x86: {
       src: "prebuilts/x86/com.android.apex.cts.shim.v2_with_pre_install_hook.apex",
     },
@@ -149,6 +173,10 @@ prebuilt_apex {
     },
     arm64: {
       src: "prebuilts/arm/com.android.apex.cts.shim.v2_with_post_install_hook.apex",
+    },
+    // FIXME: need to create real file for riscv64, now just use arm64 to pass build
+    riscv64: {
+      src: "prebuilts/riscv/com.android.apex.cts.shim.v2_with_post_install_hook.apex",
     },
     x86: {
       src: "prebuilts/x86/com.android.apex.cts.shim.v2_with_post_install_hook.apex",
@@ -170,6 +198,10 @@ prebuilt_apex {
     arm64: {
       src: "prebuilts/arm/com.android.apex.cts.shim.v3.apex",
     },
+    // FIXME: need to create real file for riscv64, now just use arm64 to pass build
+    riscv64: {
+      src: "prebuilts/riscv/com.android.apex.cts.shim.v3.apex",
+    },
     x86: {
       src: "prebuilts/x86/com.android.apex.cts.shim.v3.apex",
     },
@@ -190,6 +222,10 @@ prebuilt_apex {
     arm64: {
       src: "prebuilts/arm/com.android.apex.cts.shim.v2_different_certificate.apex",
     },
+    // FIXME: need to create real file for riscv64, now just use arm64 to pass build
+    riscv64: {
+      src: "prebuilts/riscv/com.android.apex.cts.shim.v2_different_certificate.apex",
+    },
     x86: {
       src: "prebuilts/x86/com.android.apex.cts.shim.v2_different_certificate.apex",
     },
@@ -209,6 +245,10 @@ prebuilt_apex {
     },
     arm64: {
       src: "prebuilts/arm/com.android.apex.cts.shim.v2_unsigned_apk_container.apex",
+    },
+    // FIXME: need to create real file for riscv64, now just use arm64 to pass build
+    riscv64: {
+      src: "prebuilts/riscv/com.android.apex.cts.shim.v2_unsigned_apk_container.apex",
     },
     x86: {
       src: "prebuilts/x86/com.android.apex.cts.shim.v2_unsigned_apk_container.apex",
