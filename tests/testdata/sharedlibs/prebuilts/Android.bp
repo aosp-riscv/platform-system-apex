@@ -20,6 +20,8 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
+// FIXME: need to create real files for riscv64, now just use arm64 to pass build
+
 prebuilt_apex {
   name: "com.android.apex.test.bar_stripped.v1.libvX_prebuilt",
   arch: {
@@ -28,6 +30,9 @@ prebuilt_apex {
     },
     arm64: {
       src: "arm64/com.android.apex.test.bar_stripped.v1.libvX.apex",
+    },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.bar_stripped.v1.libvX.apex",
     },
     x86: {
       src: "x86/com.android.apex.test.bar_stripped.v1.libvX.apex",
@@ -49,6 +54,9 @@ prebuilt_apex {
     arm64: {
       src: "arm64/com.android.apex.test.bar_stripped.v2.libvY.apex",
     },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.bar_stripped.v2.libvY.apex",
+    },
     x86: {
       src: "x86/com.android.apex.test.bar_stripped.v2.libvY.apex",
     },
@@ -68,6 +76,9 @@ prebuilt_apex {
     },
     arm64: {
       src: "arm64/com.android.apex.test.bar.v1.libvX.apex",
+    },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.bar.v1.libvX.apex",
     },
     x86: {
       src: "x86/com.android.apex.test.bar.v1.libvX.apex",
@@ -89,6 +100,9 @@ prebuilt_apex {
     arm64: {
       src: "arm64/com.android.apex.test.bar.v2.libvY.apex",
     },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.bar.v2.libvY.apex",
+    },
     x86: {
       src: "x86/com.android.apex.test.bar.v2.libvY.apex",
     },
@@ -108,6 +122,9 @@ prebuilt_apex {
     },
     arm64: {
       src: "arm64/com.android.apex.test.baz_stripped.v1.libvX.apex",
+    },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.baz_stripped.v1.libvX.apex",
     },
     x86: {
       src: "x86/com.android.apex.test.baz_stripped.v1.libvX.apex",
@@ -129,6 +146,9 @@ prebuilt_apex {
     arm64: {
       src: "arm64/com.android.apex.test.foo_stripped.v1.libvX.apex",
     },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.foo_stripped.v1.libvX.apex",
+    },
     x86: {
       src: "x86/com.android.apex.test.foo_stripped.v1.libvX.apex",
     },
@@ -148,6 +168,9 @@ prebuilt_apex {
     },
     arm64: {
       src: "arm64/com.android.apex.test.foo_stripped.v2.libvY.apex",
+    },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.foo_stripped.v2.libvY.apex",
     },
     x86: {
       src: "x86/com.android.apex.test.foo_stripped.v2.libvY.apex",
@@ -169,6 +192,9 @@ prebuilt_apex {
     arm64: {
       src: "arm64/com.android.apex.test.foo.v1.libvX.apex",
     },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.foo.v1.libvX.apex",
+    },
     x86: {
       src: "x86/com.android.apex.test.foo.v1.libvX.apex",
     },
@@ -188,6 +214,9 @@ prebuilt_apex {
     },
     arm64: {
       src: "arm64/com.android.apex.test.foo.v2.libvY.apex",
+    },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.foo.v2.libvY.apex",
     },
     x86: {
       src: "x86/com.android.apex.test.foo.v2.libvY.apex",
@@ -209,6 +238,9 @@ prebuilt_apex {
     arm64: {
       src: "arm64/com.android.apex.test.pony_stripped.v1.libvZ.apex",
     },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.pony_stripped.v1.libvZ.apex",
+    },
     x86: {
       src: "x86/com.android.apex.test.pony_stripped.v1.libvZ.apex",
     },
@@ -228,6 +260,9 @@ prebuilt_apex {
     },
     arm64: {
       src: "arm64/com.android.apex.test.pony.v1.libvZ.apex",
+    },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.pony.v1.libvZ.apex",
     },
     x86: {
       src: "x86/com.android.apex.test.pony.v1.libvZ.apex",
@@ -249,6 +284,9 @@ prebuilt_apex {
     arm64: {
       src: "arm64/com.android.apex.test.sharedlibs_generated.v1.libvX.apex",
     },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.sharedlibs_generated.v1.libvX.apex",
+    },
     x86: {
       src: "x86/com.android.apex.test.sharedlibs_generated.v1.libvX.apex",
     },
@@ -269,6 +307,9 @@ prebuilt_apex {
     arm64: {
       src: "arm64/com.android.apex.test.sharedlibs_generated.v2.libvY.apex",
     },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.sharedlibs_generated.v2.libvY.apex",
+    },
     x86: {
       src: "x86/com.android.apex.test.sharedlibs_generated.v2.libvY.apex",
     },
@@ -288,6 +329,9 @@ prebuilt_apex {
     },
     arm64: {
       src: "arm64/com.android.apex.test.sharedlibs_secondary_generated.v1.libvZ.apex",
+    },
+    riscv64: {
+      src: "riscv64/com.android.apex.test.sharedlibs_secondary_generated.v1.libvZ.apex",
     },
     x86: {
       src: "x86/com.android.apex.test.sharedlibs_secondary_generated.v1.libvZ.apex",
